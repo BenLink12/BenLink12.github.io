@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Favorite Recipe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            font-family: "Edu AU VIC WA NT Pre", serif;
+            font-style: normal;
+            height: 870px;
+            background-color: gold;
+        }
+        .col-md-12, .col-md-4{
+            border: 2px solid black;
+            padding: 20px;
+            margin: 10px;
+            width: 360px;
+        }
+        #header{
+            width: 1120px;
+            bottom: 520px;
+            text-align: center;
+            background-color: orange;
+        }
+        #directions{
+            height: 420px;
+            background-color: orange;
+        }
+        #introduction{
+            height: 240px;
+            background-color: orange;
+        }
+        #ingredients{
+            position: relative;
+            bottom: 180px;
+            height: 385px;
+            background-color: orange;
+        }
+        #image1{
+            height: 304px;
+            width: 360px;
+            padding: 0px;
+        }
+        #video{
+            position: relative;
+            height: 205px;
+            padding: 0px;
+            background-color: orange;
+        }
+        #image2{
+            height: 320px;
+            position: relative;
+            left: 760px;
+            bottom: 520px;
+            padding: 0px;
+        }
+        #footer{
+            border: 2px solid black;
+            text-align: center;
+            width: 1120px;
+            position: relative;
+            bottom: 520px;
+            background-color: orange;
+        }    
+        .button1{
+                background-color:black;
+                border: black;
+                height: 50px;
+            }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid navbar-right">
+            <div class="navbar-header">
+                <a class="navbar-brand">Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle button1" type="button" data-toggle="dropdown">Projects
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="recipe1.html">Recipe 1</a></li>
+                            <li><a href="recipe2.html">Recipe 2</a></li>
+                            <li><a href="recipe3.html">Recipe 3</a></li>
+                            <li><a href="character.html">Character</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-12" id="header">
+                <header>
+                    <h3>Creamy Baked Mac and Cheese Recipe</h3>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="introduction">
+                <h5>
+                    Introduction
+                </h5>
+                <p>Macaroni and cheese originally traces back to cheese and pasta casseroles dating to the 14th century in Italy and Medieval England.</p>
+                <p>The recipe takes 20 minutes prep time, 15 minutes cook time, 35 minutes total time, and has 665 calories (8 servings).</p>
+            </div>
+            <div class="col-md-4" id="directions">
+                <h5>
+                    Directions
+                </h5>
+                <ol>
+                    <li>Boil the pasta, drain.</li>
+                    <li>Make the cheese sauce by combining a fat (butter), and starch (flour), then whisking in the milk products.</li>
+                    <li>Cook the sauce until its nice and thick.</li>
+                    <li>Add in shredded cheeses, stir well.</li>
+                    <li>Combine cheese sauce with cooked pasta.</li>
+                    <li>Transfer half of the mac and cheese to a baking dish, sprinkle with more shredded cheese.</li>
+                    <li>Top with the rest of the mac and cheese, top with more shredded cheese.</li>
+                    <li>Bake and prepare to thouroughly enjoy!</li>
+                </ol>
+            </div>
+            <div class="col-md-4" id="image1">
+                <img src="media/macandcheese.webp" alt="Mac and Cheese" height="300" width="356">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="ingredients">
+                <h5>
+                    Ingredients
+                </h5>
+                <ul>
+                    <li>1 lb. dried elbow pasta</li>
+                    <li>1/2 cup unsalted butter</li>
+                    <li>1/2 cup all purpose flour</li>
+                    <li>1 1/2 cups whole milk</li>
+                    <li>2 1/2 cups half and half</li>
+                    <li>4 cups shredded medium cheddar cheese (divided, measured after shredding)</li>
+                    <li>2 cups shredded Gruyere cheese (divided, measured after shredding)</li>
+                    <li>1/2 Tbsp. salt</li>
+                    <li>1/2 tsp. black pepper
+                    </li><li>1/4 tsp. paprika </li>
+                </ul>
+            </div>
+            <div class="col-md-4" id="video">
+                <video height="200" width="356" controls class="video">
+                    <source src="media/macandcheesevideo.webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4" id="image2">
+                <img src="media/macandcheese2.webp" alt="Mac and Cheese 2" height="316" width="356">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="footer">
+                <footer>
+                    <footer class="footer"><a href="https://www.thechunkychef.com/family-favorite-baked-mac-and-cheese/" target="_blank"><b>The Chunky Chef</b></a></footer>
+                </footer>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ben Link</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .button1{
+                background-color:black;
+                border: black;
+                height: 50px;
+            }
+body{
+    background-color: lightblue;
+}
+h1{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-style: normal;
+    position: absolute;
+    left: 540px;
+}
+.head{
+    background-color: yellow;
+    width: 550px;
+    height: 550px;
+    border: 4px solid black;
+    position: absolute;
+    left: 350px;
+    bottom: 30px;
+
+}
+.eyeswhite{
+    background-color: white;
+    width: 225px;
+    height: 225px;
+    border: 4px solid black;
+    border-radius: 90%;
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+.eyesblue{
+    background-color: rgb(33, 150, 239);
+    width: 115px;
+    height: 115px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 90%;
+    top: 50px;
+    left: 57px;
+}
+.eyeswhite2{
+    background-color: white;
+    width: 225px;
+    height: 225px;
+    border: 4px solid black;
+    border-radius: 90%;
+    position: relative;
+    left: 275px;
+    bottom: 145px;
+}
+.eyesblue2{
+    background-color: rgb(33, 150, 239);
+    width: 115px;
+    height: 115px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 90%;
+    top: 50px;
+    left: 45px;
+}
+.eyesblack{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 90%;
+    left: 15px;
+    top: 15px;
+}
+.eyesblack2{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 90%;
+    left: 15px;
+    top: 15px;
+}
+.nose{
+    position: relative;
+    border: 4px solid black;
+    width: 85px;
+    height: 90px; 
+    border-radius: 90%;
+    bottom: 220px;
+    left: 230px;
+    background-color: yellow;
+}
+.tooth{
+    position: relative;
+    border: 4px solid black;
+    height: 55px;
+    width: 50px;
+    background-color: white;
+    bottom: 143px;
+    left: 220px;
+}
+.tooth2{
+    position: relative;
+    border: 4px solid black;
+    height: 55px;
+    width: 50px;
+    background-color: white;
+    bottom: 206px;
+    left: 280px;
+}
+.mouth{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    bottom: 360px;
+    left: 75px;
+}
+.mouth::before,
+.mouth::after {
+    content: '';
+    z-index: 1;
+    position: absolute;
+}
+.mouth::before{
+    border-top: 4px solid black;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 2px;
+}
+.mouth::after{
+    border-radius: 60%;
+    left: 20px;
+    right: 20px;
+    height: 300px;
+    border: 4px solid black;
+    top: -200px;
+    background-color: yellow;
+}
+html{
+    margin: 3em;
+}
+.cheek{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 221, 0);
+    border-top-left-radius: 104px; 
+    border-top-right-radius: 104px;
+    border: 4px solid rgb(255, 98, 0);
+    border-bottom: 0;
+    bottom: 610px;
+    left: 50px;
+    position: relative;
+}
+.cheek2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 221, 0);
+    border-top-left-radius: 104px; 
+    border-top-right-radius: 104px;
+    border: 4px solid rgb(255, 98, 0);
+    border-bottom: 0;
+    bottom: 664px;
+    left: 400px;
+    position: relative;
+}
+.hole{
+    width: 60px;
+    height: 70px;
+    background-color: rgb(173, 161, 37);
+    border-radius: 90%;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 585px;
+    left: 400px;
+    opacity: 80%;
+}
+.hole2{
+    width: 50px;
+    height: 60px;
+    background-color: rgb(173, 161, 37);
+    border-radius: 90%;
+    transform: rotate(120deg);
+    position: relative;
+    bottom: 1060px;
+    left: 100px;
+    opacity: 80%;
+}
+.hole3{
+    width: 50px;
+    height: 70px;
+    background-color: rgb(173, 161, 37);
+    border-radius: 90%;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 1055px;
+    left: 490px;
+    opacity: 80%;
+}
+.hole4{
+    width: 60px;
+    height: 70px;
+    background-color: rgb(173, 161, 37);
+    border-radius: 90%;
+    transform: rotate(30deg);
+    position: relative;
+    bottom: 735px;
+    left: 50px;
+    opacity: 80%;
+}
+.hole5{
+    width: 60px;
+    height: 70px;
+    background-color: rgb(173, 161, 37);
+    border-radius: 90%;
+    transform: rotate(-30deg);
+    position: relative;
+    bottom: 1035px;
+    left: 6px;
+    opacity: 80%;
+}
+.eyelash{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1300px;
+    left: 100px;
+    transform: rotate(-15deg);
+}
+.eyelash2{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1374px;
+    left: 150px;
+}
+.eyelash3{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1432px;
+    left: 200px;
+    transform: rotate(15deg);
+}
+.eyelash4{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1480px;
+    left: 340px;
+    transform: rotate(-15deg);
+}
+.eyelash5{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1549px;
+    left: 390px;
+}
+.eyelash6{
+    width: 12px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+    bottom: 1598px;
+    left: 440px;
+    transform: rotate(15deg);
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid navbar-right">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Portfolio</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle button1" type="button" data-toggle="dropdown">Projects
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="recipe1.html">Recipe 1</a></li>
+                                <li><a href="recipe2.html">Recipe 2</a></li>
+                                <li><a href="recipe3.html">Recipe 3</a></li>
+                                <li><a href="character.html">Character</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <h1>Spongebob</h1>
+        <div class="head">
+        <div class="eyeswhite">
+        <div class="eyesblue">
+        <div class="eyesblack"></div>
+        </div>
+        </div>
+        <div class="eyeswhite2">
+        <div class="eyesblue2">
+        <div class="eyesblack2"></div>
+        </div>
+        </div>
+        <div class="nose"></div>
+        <div class="tooth"></div>
+        <div class="tooth2"></div>
+        <div class="mouth"></div>
+        <div class="cheek"></div>
+        <div class="cheek2"></div>
+        <div class="hole"></div>
+        <div class="hole2"></div>
+        <div class="hole3"></div>
+        <div class="hole4"></div>
+        <div class="hole5"></div>
+        <div class="eyelash"></div>
+        <div class="eyelash2"></div>
+        <div class="eyelash3"></div>
+        <div class="eyelash4"></div>
+        <div class="eyelash5"></div>
+        <div class="eyelash6"></div>
+        </div>
+    </body>
+</html>

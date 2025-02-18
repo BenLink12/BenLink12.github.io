@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: lightblue;
+                font-family: "Lato", serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            .button1{
+                background-color:black;
+                border: black;
+                height: 50px;
+            }
+            .col-md-4, .col-md-12{
+                border: 10px solid blue;
+                background-color: rgb(0, 132, 255);
+            }
+            .col-md-4{
+                height: 355px;
+            }
+            .row{
+                margin-bottom: 20px;
+            }
+            .baseball{
+                height: 200px;
+                width: 250px;
+                position: relative;
+                left: 75px;
+            }
+            .running{
+                position: relative;
+                left: 75px;
+
+            }
+            .chess{
+                position: relative;
+                left: 85px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid navbar-left">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Portfolio</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle button1" type="button" data-toggle="dropdown">Projects
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="recipe1.html">Recipe 1</a></li>
+                                <li><a href="recipe2.html">Recipe 2</a></li>
+                                <li><a href="recipe3.html">Recipe 3</a></li>
+                                <li><a href="character.html">Character</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="active" href="sports.html">Sports</a></li>
+                    <li><a href="career.html">Future Career</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h2 class="text-center">Sports</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="text-center">Baseball</h4>
+                    <p class="text-center">I have played basebal for many years, since I was about 4, and I still enjoy it. I usually like to play with my friends and have played in multiple leagues. I'm not currently playing at Lane because I'm doing track, but maybe in the future I'll try.</p>
+                    <img class="img-responsive baseball" src="media/baseball.jpg" alt="baseball">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-center">Running</h4>
+                    <p class="text-center">I started cross country in 6th grade because I thought it would be fun and I still do it. I ran cross country and track in 7th and 8th grade and plan to all throughout high school. At Lane, practice is 5 days a week and very challenging, but I enjoy it.</p>
+                    <img class="img-responsive running" src="media/running.jpeg" alt="running">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-center">Chess</h4>
+                    <p class="text-center">I learned chess when I was about 6 or 7, but I didn't really start playing until 3 years ago. I like to play online a lot and with my friends at school, and go to competitive tournaments regularly.</p>
+                    <img class="img-responsive chess" src="media/chess.jpeg" alt="chess">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="learnmore text-center">To contact me, email blink@cps.edu</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

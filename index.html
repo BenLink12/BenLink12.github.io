@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: lightblue;
+                color: black;
+                font-family: "Lato", serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            .col-md-12, .col-md-4, .col-md-2{
+                border: none;
+                padding: 20px;
+            }
+            .row{
+                margin: 20px;
+            }
+            .photo1{
+                position: relative;
+                left: 940px;
+                bottom: 235px;
+                height: 265px;
+                width: 220px;
+            }
+            .div1{
+                height: 400px;
+                background-color: blue;
+                color: black;
+            }
+            .jumbotron{
+                height: 360px;
+                background-color: blueviolet;
+                color: black;
+            }
+            .div2{
+                height:400px;
+                background-color: rgb(0, 132, 255);
+                border: 15px solid blue;
+            }
+            .div3{
+                background-color: rgb(0, 132, 255);
+                border: 15px solid blue;
+            }
+            .baseball{
+                height:160px;
+                width: 160px;
+                position: relative;
+                left: 100px;
+                top: 7px;
+            }
+            .acircle{
+                height: 100px;
+                width: 100px;
+                position: relative;
+                bottom:100px;
+                left: 180px;
+            }
+            .learnmore{
+                font-size: x-large;
+            }
+            .text1{
+                color:black;
+            }
+            .coding{
+                height:100px;
+                width:100px;
+                position: relative;
+                left: 75px;
+                top:0px;
+            }
+            .button1{
+                background-color:black;
+                border: black;
+                height: 50px;
+            }
+            .ui{
+                height: 100px;
+                width: 100px;
+                position: relative;
+                left: 68px;
+                top: 40px;
+
+            }
+            .software{
+                height: 100px;
+                width: 100px;
+                position: relative;
+                left: 175px;
+                bottom: 60px;
+            }
+        </style>
+    </head>
+    <body>
+                    <nav class="navbar navbar-inverse">
+                        <div class="container-fluid navbar-left">
+                            <div class="navbar-header">
+                                <a class="navbar-brand">Portfolio</a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle button1" type="button" data-toggle="dropdown">Projects
+                                        <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="recipe1.html">Recipe 1</a></li>
+                                            <li><a href="recipe2.html">Recipe 2</a></li>
+                                            <li><a href="recipe3.html">Recipe 3</a></li>
+                                            <li><a href="character.html">Character</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="sports.html">Sports</a></li>
+                                <li><a href="career.html">Future Career</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 div1">
+                    <div class="jumbotron">
+                        <h1>Ben Link</h1>
+                    <p class="text1"><b>My name is Ben Link, and I am a freshman at Lane Tech High School. I am 14 years old and I enjoy <br> playing sports, running, and playing chess. I have also made many coding projects with HTML CSS <br> and Bootstrap in Web Development class. Sports I have played are baseball, soccer, <br> cross country, and track.</b>
+                    </p>
+                    <img class="photo1" src="media/photoofme.jpg" alt="me">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 div2">
+                    <h3 class="text-center">Sports</h3>
+                    I have played mutliple sports, mainly baseball, cross country, and track. I have played baseball almost my whole life, but I mostly play it for fun or with my friends. I also run cross country and track at Lane and want to improve as much as I can throughout high school. I also play chess on the Lane varsity team and with my friends.
+                    <img class="img-responsive baseball" src="media/baseball.jpg" alt="baseball">
+                </div>
+                <div class="col-md-4 div2">
+                    <h3 class="text-center">Academics</h3>
+                    Before Lane, I went to the Taft AC with all A's and earned high school credits, and my goal for this year and hopefully all of high school is to get all A's or mostly at least. I also want to go to college, not sure where though. I have done many coding projects in Web Development class. They include HTML, CSS, and Bootstrap and I have made projects such as recipes, an image made of divs, and more. I hope to create more in the future and in this class.
+                    <br>
+                    <p class="text-center">Click <u><a class= "text-danger" href="projects.html">here</a></u> to view.</p>
+                    <img class="img-responsive coding" src="media/coding.png" alt="sponge">
+                    <img class="img-responsive acircle" src="media/a+.png" alt="a+">
+                </div>
+                <div class="col-md-4 div2">
+                    <h3 class="text-center">Future Career</h3>
+                    After high school, I plan to go to college and get a job. I don't know where I want to go to college, possibly University of Illinois. I also don't know what I want to do as a career, but I am interested in software engineering or something else technology/computer science related. Both of my parents went to University of Illinois and my dad works as a software engineer.
+                    <img class="img-responsive ui" src="media/ui.png" alt="ui">
+                    <img class="img-responsive software" src="media/software.jpeg" alt="software">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 div3">
+                    <p class="learnmore text-center">To contact me, email blink@cps.edu</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
